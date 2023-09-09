@@ -1,4 +1,5 @@
 # Binary Tree Search in Go
+Simple Binary tree search implementation in Golan with generics
 
 ``` go run . ```
 
