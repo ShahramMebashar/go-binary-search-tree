@@ -1,5 +1,6 @@
-# Binary Tree Search in Go
-Simple Binary tree search implementation in Golan with generics
+# Binary Search Tree in Go
+
+Simple Binary Search tree implementation in Golan with generics
 
 ```go
 type BinaryTree[T int | float32] struct {
@@ -23,3 +24,4 @@ func insert[T int | float32](node *BinaryTree[T], val T) *BinaryTree[T] {
 	}
 	return node
 }
+```

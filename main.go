@@ -59,7 +59,6 @@ func preOrder[T int | float32](btree *BinaryTree[T]) {
 }
 
 func main() {
-	// btree := &BinaryTree[int]{Value: 1}
 	btree := makeBtree[int]([]int{3, 6, 7, 10, 2, 1, 4})
 
 	println("Inorder:")
