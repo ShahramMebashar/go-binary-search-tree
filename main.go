@@ -44,18 +44,18 @@ func postOrder[T int | float32](btree *BinaryTree[T]) {
 	if btree == nil {
 		return
 	}
-	println(btree.Value)
 	postOrder[T](btree.Left)
 	postOrder[T](btree.Right)
+	println(btree.Value)
 }
 
 func preOrder[T int | float32](btree *BinaryTree[T]) {
 	if btree == nil {
 		return
 	}
+	println(btree.Value)
 	preOrder[T](btree.Left)
 	preOrder[T](btree.Right)
-	println(btree.Value)
 }
 
 func main() {
